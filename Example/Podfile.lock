@@ -1,0 +1,26 @@
+PODS:
+  - DZDeneyRepeat (0.1.0):
+    - MRLogicInjection
+  - FBSnapshotTestCase (2.1.2):
+    - FBSnapshotTestCase/SwiftSupport (= 2.1.2)
+  - FBSnapshotTestCase/Core (2.1.2)
+  - FBSnapshotTestCase/SwiftSupport (2.1.2):
+    - FBSnapshotTestCase/Core
+  - MRLogicInjection (0.1.0)
+
+DEPENDENCIES:
+  - DZDeneyRepeat (from `../`)
+  - FBSnapshotTestCase
+
+EXTERNAL SOURCES:
+  DZDeneyRepeat:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  DZDeneyRepeat: c20b55d9a0159379aa3e02d3713d65053dc92eb9
+  FBSnapshotTestCase: 918c55861356ee83aee7843d759f55a18ff6982b
+  MRLogicInjection: 5d514d80f9a6c72bbe29fbda8af2db72fbb746ce
+
+PODFILE CHECKSUM: fac35be1492dfef500917d13b2be5f5577f3d436
+
+COCOAPODS: 1.0.1

@@ -1,0 +1,6 @@
+framework module DZDeneyRepeat {
+  umbrella header "DZDeneyRepeat-umbrella.h"
+
+  export *
+  module * { export * }
+}

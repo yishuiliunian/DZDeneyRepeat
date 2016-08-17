@@ -7,9 +7,9 @@
 //
 
 #import "DZViewController.h"
-
+#import <DZDeneyRepeat/DZDeneyRepeat.h>
 @interface DZViewController ()
-
+@property (nonatomic, weak) IBOutlet UIButton* button;
 @end
 
 @implementation DZViewController
@@ -17,6 +17,7 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
+    DZInjectionDeneyRepeatLogic(self.button, 2);
 	// Do any additional setup after loading the view, typically from a nib.
 }
 
@@ -26,4 +27,7 @@
     // Dispose of any resources that can be recreated.
 }
 
+- (IBAction)clickTest:(id)sender{
+    NSLog(@"clicked");
+}
 @end

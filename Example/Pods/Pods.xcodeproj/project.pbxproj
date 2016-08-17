@@ -1,0 +1,1135 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		11C22C7B844DF31A5EBDC9AC132C5E94 /* UIImage+Compare.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CE5C0804CA0A314031E91C33F434A53 /* UIImage+Compare.m */; };
+		130F048002A62769FAFCC66F2C79391A /* FBSnapshotTestController.h in Headers */ = {isa = PBXBuildFile; fileRef = 2758A496D13254195EF101DBA8033158 /* FBSnapshotTestController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1C61387CA361772A429BCE6B7644A4EB /* MRLogicInjection.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5D00AABF48AEDC0388A989906460EA87 /* MRLogicInjection.framework */; };
+		211FD57F06DB5C1551F29B08D86434F2 /* DZDeneyRepeat-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = FCD7A433CBFC73D20E14EA63418B503D /* DZDeneyRepeat-dummy.m */; };
+		22F7819B40314630BC30DD50663FA3EC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DF592CC51420196179E5C342F9A3EAAA /* Foundation.framework */; };
+		27495E7A58C742661F86BCF059D2A9D1 /* DZDeneyRepeat.h in Headers */ = {isa = PBXBuildFile; fileRef = 4B718E7D7502608E6BBDC96040E498D5 /* DZDeneyRepeat.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		27F315F10DA9799C8D285FA0CAD7C70E /* Pods-DZDeneyRepeat_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 148EA92A51D563ADFA7983E5AB2736EF /* Pods-DZDeneyRepeat_Example-dummy.m */; };
+		2ADEF0F2549103F0491117CB94C5C73E /* MRExtendClass.h in Headers */ = {isa = PBXBuildFile; fileRef = 5DD07014891C7AF5E0F27F51A803B8FD /* MRExtendClass.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2C87E1788C8FA06AE3481A2226E3AF2D /* UIApplication+StrictKeyWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F73B2609D9B33E3A8C3D5316144AF57 /* UIApplication+StrictKeyWindow.m */; };
+		34A1C7E576C58A9D3F3101448308BF3E /* UIImage+Snapshot.h in Headers */ = {isa = PBXBuildFile; fileRef = A4C1DB8C10DE62FCED4ADEED6F32434F /* UIImage+Snapshot.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		3A0200999A4AB91F106DFF35BAAFB968 /* Pods-DZDeneyRepeat_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = BD7E600221633027DC0913D5172B7D63 /* Pods-DZDeneyRepeat_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		497AA8816FC08215EF4C2431E1986992 /* FBSnapshotTestCase-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5614A517F3FB1DA145BAAACAEF865940 /* FBSnapshotTestCase-dummy.m */; };
+		4FFEAF6029B943D6D449AAFD3E50C866 /* MRLogicInjection-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = EFA43F798B6BE0C4FB483014B51A09CF /* MRLogicInjection-dummy.m */; };
+		501DC8A63FF9383105F46CFFA7806391 /* MRExtendClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F536F75F53EFC7F68AB8972E57E9AC2 /* MRExtendClass.m */; };
+		5A3AC6D1C97C72BEAE4491E17288980A /* MRLogicInjection-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 10324431BDD97DF31821BC6FD622E3F5 /* MRLogicInjection-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5B9035157627EBCE6700215DA98C91FC /* MRLogicInjection.h in Headers */ = {isa = PBXBuildFile; fileRef = 01D0221B32F40A5453813B13295D9060 /* MRLogicInjection.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		61EBC5CF0D5E065C88028B49C6B8D3B3 /* UIImage+Diff.h in Headers */ = {isa = PBXBuildFile; fileRef = 5F066D721615A9D7BD7822E483DE6236 /* UIImage+Diff.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		68B245DB47CA60F8F9ADCA1E8CCDC324 /* UIApplication+StrictKeyWindow.h in Headers */ = {isa = PBXBuildFile; fileRef = 14AC74D24BAE2313F5C38D177AA8EF86 /* UIApplication+StrictKeyWindow.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		6914EE43A9B8B8D30220B3B6B0D57523 /* FBSnapshotTestCase.m in Sources */ = {isa = PBXBuildFile; fileRef = D5421952ADCEF889BF6F3E33ADF123C3 /* FBSnapshotTestCase.m */; };
+		6E4A16BF4D27C48BB1FE1E1CF5E8B90E /* FBSnapshotTestCasePlatform.m in Sources */ = {isa = PBXBuildFile; fileRef = 744933BACC0F1D2E345F7DB60F25DAE7 /* FBSnapshotTestCasePlatform.m */; };
+		73B96724E9D2B03677BA3C2D24601D64 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A39A11D8970B092FE7CD488519E8D51E /* XCTest.framework */; };
+		81A43478E4CA39F82C8CBAB9F6070D8F /* DZDeneyRepeat-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8B3FB06ABAC405D79C165D6C444E1E86 /* DZDeneyRepeat-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		85D178DFCA1BC67BBFB1188E34EC5B19 /* SwiftSupport.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A78A06ADA0AEDDC64A30082EEDC0419 /* SwiftSupport.swift */; };
+		89E8409D6723F25A840BC8B02D20229D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DF592CC51420196179E5C342F9A3EAAA /* Foundation.framework */; };
+		8ACF6A5515A175054E22414BF740EF14 /* FBSnapshotTestCase.h in Headers */ = {isa = PBXBuildFile; fileRef = FCB7F8D7EF580E3248D48529DE3FE340 /* FBSnapshotTestCase.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		90972CCFDF0642B1EB6054634EA57AC2 /* DZDeneyRepeatInjection.h in Headers */ = {isa = PBXBuildFile; fileRef = 66705461CB3FEAF85F8F2004EDFA047A /* DZDeneyRepeatInjection.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9FA3B93CE0ECAC3CDC30890659AACF82 /* FBSnapshotTestCasePlatform.h in Headers */ = {isa = PBXBuildFile; fileRef = AD057CD47A9915DC6F72CE491B130315 /* FBSnapshotTestCasePlatform.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A932B89F114B02D24B5FBF362FD0B9F9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DF592CC51420196179E5C342F9A3EAAA /* Foundation.framework */; };
+		ABEEF55B60570397E142AD372FD75963 /* Pods-DZDeneyRepeat_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = EDC84D28510DDC3D9E1A0D19089A8BEE /* Pods-DZDeneyRepeat_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B6A67A3B998747E4290BF6010EC33806 /* FBSnapshotTestCase-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A6BC7B1BA1AA13813806CFC1E04BA722 /* FBSnapshotTestCase-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BA3CEE99217369440CA29D1C84BBC9B0 /* Pods-DZDeneyRepeat_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 46C0E6FD3DDCFC30AD605F96423B43D8 /* Pods-DZDeneyRepeat_Tests-dummy.m */; };
+		C2C485961CFD87C86AF21DD401A8884B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DF592CC51420196179E5C342F9A3EAAA /* Foundation.framework */; };
+		C360952381641F725C15758993A0F665 /* UIImage+Diff.m in Sources */ = {isa = PBXBuildFile; fileRef = A97A45A76D744BBA2808DFCE9EB41D65 /* UIImage+Diff.m */; };
+		D5C30BC656C11AF60394E3180A217BB1 /* UIImage+Snapshot.m in Sources */ = {isa = PBXBuildFile; fileRef = 92384B32DBBBD3AC195097A406053F0F /* UIImage+Snapshot.m */; };
+		EA45E9D5CC33E407CC7C6CFD405406CB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DF592CC51420196179E5C342F9A3EAAA /* Foundation.framework */; };
+		EAA652557B70F493923A3447B5D64E0D /* UIImage+Compare.h in Headers */ = {isa = PBXBuildFile; fileRef = 16F4413B91ED8677B3DD6D5248F6CD63 /* UIImage+Compare.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		F0B3BC4CE7B1074981F32DDD032E9539 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 54F79089E729AAA9EE6B1F84DDC4DAE8 /* UIKit.framework */; };
+		F201DBA57FF777AAF9018A14EAA05F11 /* DZDeneyRepeatInjection.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A2B8EF7D2B34C069C29EFCCF696824D /* DZDeneyRepeatInjection.m */; };
+		F366B775C22BBE1DBAC7BDB7DE8F0A26 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C07EFD011BE330043D721B9C12C979C8 /* QuartzCore.framework */; };
+		F47158C234C50FFB069A1EF8AB26D9F1 /* FBSnapshotTestController.m in Sources */ = {isa = PBXBuildFile; fileRef = 42C7FC4D0BCAF90C85E916C12A354594 /* FBSnapshotTestController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		18EE1445CDD73D28659DAAA73F5C9015 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 707F309C14DF3985B552B94E2762CF64;
+			remoteInfo = DZDeneyRepeat;
+		};
+		1E031D4E519097E1E47D51C368601039 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 59B7B0E89F1F2A2DBBFFDDB05CAD2A39;
+			remoteInfo = MRLogicInjection;
+		};
+		21CA887E1E3F67D437DE16D12FD10051 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 59B7B0E89F1F2A2DBBFFDDB05CAD2A39;
+			remoteInfo = MRLogicInjection;
+		};
+		9FBFED67A1461BAD5DF258543C8D8457 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5DB46EA499F9A5E22765121102FCC34B;
+			remoteInfo = FBSnapshotTestCase;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		01D0221B32F40A5453813B13295D9060 /* MRLogicInjection.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MRLogicInjection.h; path = MRLogicInjection/Classes/MRLogicInjection.h; sourceTree = "<group>"; };
+		02CC17DAD71CBD8BA453F9ACCB46A6A8 /* Pods-DZDeneyRepeat_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-DZDeneyRepeat_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		0A2B8EF7D2B34C069C29EFCCF696824D /* DZDeneyRepeatInjection.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = DZDeneyRepeatInjection.m; sourceTree = "<group>"; };
+		0E7C8DC17D4D3DE7C33C861B64E7276C /* FBSnapshotTestCase.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FBSnapshotTestCase.xcconfig; sourceTree = "<group>"; };
+		10324431BDD97DF31821BC6FD622E3F5 /* MRLogicInjection-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MRLogicInjection-umbrella.h"; sourceTree = "<group>"; };
+		13D84EEDD4743D6DAA852D63D718D975 /* Pods-DZDeneyRepeat_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-DZDeneyRepeat_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		148EA92A51D563ADFA7983E5AB2736EF /* Pods-DZDeneyRepeat_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-DZDeneyRepeat_Example-dummy.m"; sourceTree = "<group>"; };
+		14AC74D24BAE2313F5C38D177AA8EF86 /* UIApplication+StrictKeyWindow.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIApplication+StrictKeyWindow.h"; path = "FBSnapshotTestCase/Categories/UIApplication+StrictKeyWindow.h"; sourceTree = "<group>"; };
+		16F4413B91ED8677B3DD6D5248F6CD63 /* UIImage+Compare.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Compare.h"; path = "FBSnapshotTestCase/Categories/UIImage+Compare.h"; sourceTree = "<group>"; };
+		178BF97784AAB06388222ECF780C276A /* MRLogicInjection-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MRLogicInjection-prefix.pch"; sourceTree = "<group>"; };
+		1A78A06ADA0AEDDC64A30082EEDC0419 /* SwiftSupport.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwiftSupport.swift; path = FBSnapshotTestCase/SwiftSupport.swift; sourceTree = "<group>"; };
+		1C5A9597D57349864BEC2CC5AFB88400 /* MRLogicInjection.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = MRLogicInjection.modulemap; sourceTree = "<group>"; };
+		1D5981C66D9C54B89A59E85E2C4AF41B /* FBSnapshotTestCase.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = FBSnapshotTestCase.modulemap; sourceTree = "<group>"; };
+		21D33F9FB2AA071FE15E327DEF7B6BC2 /* Pods-DZDeneyRepeat_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-DZDeneyRepeat_Example-frameworks.sh"; sourceTree = "<group>"; };
+		2758A496D13254195EF101DBA8033158 /* FBSnapshotTestController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSnapshotTestController.h; path = FBSnapshotTestCase/FBSnapshotTestController.h; sourceTree = "<group>"; };
+		3388FE4D8A41E43B0C211BEBBAFBC1B7 /* Pods-DZDeneyRepeat_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-DZDeneyRepeat_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		3CE5C0804CA0A314031E91C33F434A53 /* UIImage+Compare.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Compare.m"; path = "FBSnapshotTestCase/Categories/UIImage+Compare.m"; sourceTree = "<group>"; };
+		4288DAE2972D45AF6749D1AEED7D44F4 /* Pods-DZDeneyRepeat_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-DZDeneyRepeat_Example.modulemap"; sourceTree = "<group>"; };
+		42C7FC4D0BCAF90C85E916C12A354594 /* FBSnapshotTestController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBSnapshotTestController.m; path = FBSnapshotTestCase/FBSnapshotTestController.m; sourceTree = "<group>"; };
+		46C0E6FD3DDCFC30AD605F96423B43D8 /* Pods-DZDeneyRepeat_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-DZDeneyRepeat_Tests-dummy.m"; sourceTree = "<group>"; };
+		48E96566AEB133E1FB39AA3BCE90E996 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4A01E30E24B7FA2C37A7C5C5228CCC8C /* FBSnapshotTestCase-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FBSnapshotTestCase-prefix.pch"; sourceTree = "<group>"; };
+		4B718E7D7502608E6BBDC96040E498D5 /* DZDeneyRepeat.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = DZDeneyRepeat.h; sourceTree = "<group>"; };
+		4F536F75F53EFC7F68AB8972E57E9AC2 /* MRExtendClass.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MRExtendClass.m; path = MRLogicInjection/Classes/MRExtendClass.m; sourceTree = "<group>"; };
+		4FFD9EEB920B74BE27ABD3B24753115C /* Pods-DZDeneyRepeat_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-DZDeneyRepeat_Tests.modulemap"; sourceTree = "<group>"; };
+		54F79089E729AAA9EE6B1F84DDC4DAE8 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		5614A517F3FB1DA145BAAACAEF865940 /* FBSnapshotTestCase-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "FBSnapshotTestCase-dummy.m"; sourceTree = "<group>"; };
+		58A9BE05D0856FE3AE2E39454F1CDDD8 /* DZDeneyRepeat-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DZDeneyRepeat-prefix.pch"; sourceTree = "<group>"; };
+		5D00AABF48AEDC0388A989906460EA87 /* MRLogicInjection.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MRLogicInjection.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5DD07014891C7AF5E0F27F51A803B8FD /* MRExtendClass.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MRExtendClass.h; path = MRLogicInjection/Classes/MRExtendClass.h; sourceTree = "<group>"; };
+		5F066D721615A9D7BD7822E483DE6236 /* UIImage+Diff.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Diff.h"; path = "FBSnapshotTestCase/Categories/UIImage+Diff.h"; sourceTree = "<group>"; };
+		62AC4981B3FCB168DA0EA48021FE6A3E /* Pods-DZDeneyRepeat_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DZDeneyRepeat_Example.release.xcconfig"; sourceTree = "<group>"; };
+		66705461CB3FEAF85F8F2004EDFA047A /* DZDeneyRepeatInjection.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = DZDeneyRepeatInjection.h; sourceTree = "<group>"; };
+		6B0413939F063C96847DF4CD2F2EFFEC /* Pods-DZDeneyRepeat_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DZDeneyRepeat_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		6EB611A09F0ADF4AF29B24A32AA9AAAD /* Pods-DZDeneyRepeat_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-DZDeneyRepeat_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		6F73B2609D9B33E3A8C3D5316144AF57 /* UIApplication+StrictKeyWindow.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIApplication+StrictKeyWindow.m"; path = "FBSnapshotTestCase/Categories/UIApplication+StrictKeyWindow.m"; sourceTree = "<group>"; };
+		744933BACC0F1D2E345F7DB60F25DAE7 /* FBSnapshotTestCasePlatform.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBSnapshotTestCasePlatform.m; path = FBSnapshotTestCase/FBSnapshotTestCasePlatform.m; sourceTree = "<group>"; };
+		781AC1A2CF105D245DF28AEDB76E019D /* MRLogicInjection.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MRLogicInjection.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8B3FB06ABAC405D79C165D6C444E1E86 /* DZDeneyRepeat-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DZDeneyRepeat-umbrella.h"; sourceTree = "<group>"; };
+		8C6B411E3AECFD7BEA566104E2181465 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		92384B32DBBBD3AC195097A406053F0F /* UIImage+Snapshot.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Snapshot.m"; path = "FBSnapshotTestCase/Categories/UIImage+Snapshot.m"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9D42BE629FBC35CDD14E8EF92E7B9A9A /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A39A11D8970B092FE7CD488519E8D51E /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		A445155860030F8681AFEBAE5C9783BB /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A4C1DB8C10DE62FCED4ADEED6F32434F /* UIImage+Snapshot.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Snapshot.h"; path = "FBSnapshotTestCase/Categories/UIImage+Snapshot.h"; sourceTree = "<group>"; };
+		A6BC7B1BA1AA13813806CFC1E04BA722 /* FBSnapshotTestCase-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FBSnapshotTestCase-umbrella.h"; sourceTree = "<group>"; };
+		A8939EB919888C6E44F981D67B3E8294 /* Pods_DZDeneyRepeat_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DZDeneyRepeat_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A97A45A76D744BBA2808DFCE9EB41D65 /* UIImage+Diff.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Diff.m"; path = "FBSnapshotTestCase/Categories/UIImage+Diff.m"; sourceTree = "<group>"; };
+		AAD027E74F4F1B5D390CB29E83BE3D58 /* DZDeneyRepeat.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = DZDeneyRepeat.xcconfig; sourceTree = "<group>"; };
+		AD057CD47A9915DC6F72CE491B130315 /* FBSnapshotTestCasePlatform.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSnapshotTestCasePlatform.h; path = FBSnapshotTestCase/FBSnapshotTestCasePlatform.h; sourceTree = "<group>"; };
+		AEAD80E71903DAAD8DAA64CC71DD9615 /* Pods-DZDeneyRepeat_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DZDeneyRepeat_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		BA4F5705C7DBA00756336926F1D3752A /* Pods-DZDeneyRepeat_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-DZDeneyRepeat_Example-resources.sh"; sourceTree = "<group>"; };
+		BD7E600221633027DC0913D5172B7D63 /* Pods-DZDeneyRepeat_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-DZDeneyRepeat_Example-umbrella.h"; sourceTree = "<group>"; };
+		C065A8B558FD2E40426B754FF01DC76F /* FBSnapshotTestCase.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = FBSnapshotTestCase.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C07EFD011BE330043D721B9C12C979C8 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
+		C550342C705AE7A429A35ADA7EE4451A /* MRLogicInjection.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MRLogicInjection.xcconfig; sourceTree = "<group>"; };
+		CADE2DB48316F237C325F423D1508B94 /* Pods_DZDeneyRepeat_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DZDeneyRepeat_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CCA260ED578603CE85409D78F62AB53A /* Pods-DZDeneyRepeat_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-DZDeneyRepeat_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		CCDB102862F936F239F95F3CF7151549 /* DZDeneyRepeat.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = DZDeneyRepeat.modulemap; sourceTree = "<group>"; };
+		D371AAB44AC83F703463789AA010A277 /* DZDeneyRepeat.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = DZDeneyRepeat.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D5421952ADCEF889BF6F3E33ADF123C3 /* FBSnapshotTestCase.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBSnapshotTestCase.m; path = FBSnapshotTestCase/FBSnapshotTestCase.m; sourceTree = "<group>"; };
+		DC9838C57FD532DCA6D5F923A4579F28 /* Pods-DZDeneyRepeat_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-DZDeneyRepeat_Tests-resources.sh"; sourceTree = "<group>"; };
+		DF592CC51420196179E5C342F9A3EAAA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		EDC84D28510DDC3D9E1A0D19089A8BEE /* Pods-DZDeneyRepeat_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-DZDeneyRepeat_Tests-umbrella.h"; sourceTree = "<group>"; };
+		EE9601BA9E89C70A87ECF34C14421C51 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EFA43F798B6BE0C4FB483014B51A09CF /* MRLogicInjection-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "MRLogicInjection-dummy.m"; sourceTree = "<group>"; };
+		FC1755F01445D5EFF50EC8B86348F94C /* Pods-DZDeneyRepeat_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DZDeneyRepeat_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		FCB7F8D7EF580E3248D48529DE3FE340 /* FBSnapshotTestCase.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSnapshotTestCase.h; path = FBSnapshotTestCase/FBSnapshotTestCase.h; sourceTree = "<group>"; };
+		FCD7A433CBFC73D20E14EA63418B503D /* DZDeneyRepeat-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "DZDeneyRepeat-dummy.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		10A0EB906189DE44626D008D90C497BB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C2C485961CFD87C86AF21DD401A8884B /* Foundation.framework in Frameworks */,
+				1C61387CA361772A429BCE6B7644A4EB /* MRLogicInjection.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2BFD2AB57D5AEC22B58B8A7CF05896F3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				22F7819B40314630BC30DD50663FA3EC /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4894D24346AD91AB3D36E2DDFDC65809 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA45E9D5CC33E407CC7C6CFD405406CB /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C1977F162D39201F542CC9BCB2063BC2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				89E8409D6723F25A840BC8B02D20229D /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F1A13ADE6C7840452C8DD4B939BFD24B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A932B89F114B02D24B5FBF362FD0B9F9 /* Foundation.framework in Frameworks */,
+				F366B775C22BBE1DBAC7BDB7DE8F0A26 /* QuartzCore.framework in Frameworks */,
+				F0B3BC4CE7B1074981F32DDD032E9539 /* UIKit.framework in Frameworks */,
+				73B96724E9D2B03677BA3C2D24601D64 /* XCTest.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0E505E4CE98DAB5109A761896BAC6A67 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				A4274323808F49766C956EA8F3E3473F /* Pods-DZDeneyRepeat_Example */,
+				8713390208EEE73201BE187114676ACE /* Pods-DZDeneyRepeat_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		307A0D112092D23CA12ECA97135A3B40 /* SwiftSupport */ = {
+			isa = PBXGroup;
+			children = (
+				1A78A06ADA0AEDDC64A30082EEDC0419 /* SwiftSupport.swift */,
+			);
+			name = SwiftSupport;
+			sourceTree = "<group>";
+		};
+		324C89B9785B0F7586367D2A1B061F4B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				652D9CC8541C65997B0B9269FDA7DCBD /* FBSnapshotTestCase */,
+				622BE2D371B7AE50E9873F7AE863DC0D /* MRLogicInjection */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		4AE022CB3EF2C6BAABAC22DE7E8037D5 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				DF592CC51420196179E5C342F9A3EAAA /* Foundation.framework */,
+				C07EFD011BE330043D721B9C12C979C8 /* QuartzCore.framework */,
+				54F79089E729AAA9EE6B1F84DDC4DAE8 /* UIKit.framework */,
+				A39A11D8970B092FE7CD488519E8D51E /* XCTest.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		622BE2D371B7AE50E9873F7AE863DC0D /* MRLogicInjection */ = {
+			isa = PBXGroup;
+			children = (
+				5DD07014891C7AF5E0F27F51A803B8FD /* MRExtendClass.h */,
+				4F536F75F53EFC7F68AB8972E57E9AC2 /* MRExtendClass.m */,
+				01D0221B32F40A5453813B13295D9060 /* MRLogicInjection.h */,
+				F332BCDEBD794F4C5BC83E462CBCC0ED /* Support Files */,
+			);
+			path = MRLogicInjection;
+			sourceTree = "<group>";
+		};
+		652D9CC8541C65997B0B9269FDA7DCBD /* FBSnapshotTestCase */ = {
+			isa = PBXGroup;
+			children = (
+				7A327CDF5ADA0289F3C8C903A26A5DEA /* Core */,
+				B21CFED2B7343650298E6B7827101C9E /* Support Files */,
+				307A0D112092D23CA12ECA97135A3B40 /* SwiftSupport */,
+			);
+			path = FBSnapshotTestCase;
+			sourceTree = "<group>";
+		};
+		7A327CDF5ADA0289F3C8C903A26A5DEA /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				FCB7F8D7EF580E3248D48529DE3FE340 /* FBSnapshotTestCase.h */,
+				D5421952ADCEF889BF6F3E33ADF123C3 /* FBSnapshotTestCase.m */,
+				AD057CD47A9915DC6F72CE491B130315 /* FBSnapshotTestCasePlatform.h */,
+				744933BACC0F1D2E345F7DB60F25DAE7 /* FBSnapshotTestCasePlatform.m */,
+				2758A496D13254195EF101DBA8033158 /* FBSnapshotTestController.h */,
+				42C7FC4D0BCAF90C85E916C12A354594 /* FBSnapshotTestController.m */,
+				14AC74D24BAE2313F5C38D177AA8EF86 /* UIApplication+StrictKeyWindow.h */,
+				6F73B2609D9B33E3A8C3D5316144AF57 /* UIApplication+StrictKeyWindow.m */,
+				16F4413B91ED8677B3DD6D5248F6CD63 /* UIImage+Compare.h */,
+				3CE5C0804CA0A314031E91C33F434A53 /* UIImage+Compare.m */,
+				5F066D721615A9D7BD7822E483DE6236 /* UIImage+Diff.h */,
+				A97A45A76D744BBA2808DFCE9EB41D65 /* UIImage+Diff.m */,
+				A4C1DB8C10DE62FCED4ADEED6F32434F /* UIImage+Snapshot.h */,
+				92384B32DBBBD3AC195097A406053F0F /* UIImage+Snapshot.m */,
+			);
+			name = Core;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				A105EE16567F2A938842EA991F86E55E /* Development Pods */,
+				BF8F607AA40B0FFB81D99A60176B7326 /* Frameworks */,
+				324C89B9785B0F7586367D2A1B061F4B /* Pods */,
+				9494560ECBDA3182CDAD699853BED3B3 /* Products */,
+				0E505E4CE98DAB5109A761896BAC6A67 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		8713390208EEE73201BE187114676ACE /* Pods-DZDeneyRepeat_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				8C6B411E3AECFD7BEA566104E2181465 /* Info.plist */,
+				4FFD9EEB920B74BE27ABD3B24753115C /* Pods-DZDeneyRepeat_Tests.modulemap */,
+				6EB611A09F0ADF4AF29B24A32AA9AAAD /* Pods-DZDeneyRepeat_Tests-acknowledgements.markdown */,
+				3388FE4D8A41E43B0C211BEBBAFBC1B7 /* Pods-DZDeneyRepeat_Tests-acknowledgements.plist */,
+				46C0E6FD3DDCFC30AD605F96423B43D8 /* Pods-DZDeneyRepeat_Tests-dummy.m */,
+				CCA260ED578603CE85409D78F62AB53A /* Pods-DZDeneyRepeat_Tests-frameworks.sh */,
+				DC9838C57FD532DCA6D5F923A4579F28 /* Pods-DZDeneyRepeat_Tests-resources.sh */,
+				EDC84D28510DDC3D9E1A0D19089A8BEE /* Pods-DZDeneyRepeat_Tests-umbrella.h */,
+				AEAD80E71903DAAD8DAA64CC71DD9615 /* Pods-DZDeneyRepeat_Tests.debug.xcconfig */,
+				6B0413939F063C96847DF4CD2F2EFFEC /* Pods-DZDeneyRepeat_Tests.release.xcconfig */,
+			);
+			name = "Pods-DZDeneyRepeat_Tests";
+			path = "Target Support Files/Pods-DZDeneyRepeat_Tests";
+			sourceTree = "<group>";
+		};
+		8DA2FE6DC8EA604B72DE1D63AEFC2DD2 /* DZDeneyRepeat */ = {
+			isa = PBXGroup;
+			children = (
+				B198C615E1D54A88FD1BC1762BAC30AB /* Classes */,
+			);
+			path = DZDeneyRepeat;
+			sourceTree = "<group>";
+		};
+		9494560ECBDA3182CDAD699853BED3B3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D371AAB44AC83F703463789AA010A277 /* DZDeneyRepeat.framework */,
+				C065A8B558FD2E40426B754FF01DC76F /* FBSnapshotTestCase.framework */,
+				781AC1A2CF105D245DF28AEDB76E019D /* MRLogicInjection.framework */,
+				CADE2DB48316F237C325F423D1508B94 /* Pods_DZDeneyRepeat_Example.framework */,
+				A8939EB919888C6E44F981D67B3E8294 /* Pods_DZDeneyRepeat_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A105EE16567F2A938842EA991F86E55E /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C921351A6667E98C76FBD7EE105AD84C /* DZDeneyRepeat */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		A4274323808F49766C956EA8F3E3473F /* Pods-DZDeneyRepeat_Example */ = {
+			isa = PBXGroup;
+			children = (
+				A445155860030F8681AFEBAE5C9783BB /* Info.plist */,
+				4288DAE2972D45AF6749D1AEED7D44F4 /* Pods-DZDeneyRepeat_Example.modulemap */,
+				02CC17DAD71CBD8BA453F9ACCB46A6A8 /* Pods-DZDeneyRepeat_Example-acknowledgements.markdown */,
+				13D84EEDD4743D6DAA852D63D718D975 /* Pods-DZDeneyRepeat_Example-acknowledgements.plist */,
+				148EA92A51D563ADFA7983E5AB2736EF /* Pods-DZDeneyRepeat_Example-dummy.m */,
+				21D33F9FB2AA071FE15E327DEF7B6BC2 /* Pods-DZDeneyRepeat_Example-frameworks.sh */,
+				BA4F5705C7DBA00756336926F1D3752A /* Pods-DZDeneyRepeat_Example-resources.sh */,
+				BD7E600221633027DC0913D5172B7D63 /* Pods-DZDeneyRepeat_Example-umbrella.h */,
+				FC1755F01445D5EFF50EC8B86348F94C /* Pods-DZDeneyRepeat_Example.debug.xcconfig */,
+				62AC4981B3FCB168DA0EA48021FE6A3E /* Pods-DZDeneyRepeat_Example.release.xcconfig */,
+			);
+			name = "Pods-DZDeneyRepeat_Example";
+			path = "Target Support Files/Pods-DZDeneyRepeat_Example";
+			sourceTree = "<group>";
+		};
+		B198C615E1D54A88FD1BC1762BAC30AB /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				4B718E7D7502608E6BBDC96040E498D5 /* DZDeneyRepeat.h */,
+				66705461CB3FEAF85F8F2004EDFA047A /* DZDeneyRepeatInjection.h */,
+				0A2B8EF7D2B34C069C29EFCCF696824D /* DZDeneyRepeatInjection.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		B21CFED2B7343650298E6B7827101C9E /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				1D5981C66D9C54B89A59E85E2C4AF41B /* FBSnapshotTestCase.modulemap */,
+				0E7C8DC17D4D3DE7C33C861B64E7276C /* FBSnapshotTestCase.xcconfig */,
+				5614A517F3FB1DA145BAAACAEF865940 /* FBSnapshotTestCase-dummy.m */,
+				4A01E30E24B7FA2C37A7C5C5228CCC8C /* FBSnapshotTestCase-prefix.pch */,
+				A6BC7B1BA1AA13813806CFC1E04BA722 /* FBSnapshotTestCase-umbrella.h */,
+				EE9601BA9E89C70A87ECF34C14421C51 /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/FBSnapshotTestCase";
+			sourceTree = "<group>";
+		};
+		BF8F607AA40B0FFB81D99A60176B7326 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5D00AABF48AEDC0388A989906460EA87 /* MRLogicInjection.framework */,
+				4AE022CB3EF2C6BAABAC22DE7E8037D5 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C921351A6667E98C76FBD7EE105AD84C /* DZDeneyRepeat */ = {
+			isa = PBXGroup;
+			children = (
+				8DA2FE6DC8EA604B72DE1D63AEFC2DD2 /* DZDeneyRepeat */,
+				EBB987682ED2B707AD48143564B44E83 /* Support Files */,
+			);
+			name = DZDeneyRepeat;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		EBB987682ED2B707AD48143564B44E83 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				CCDB102862F936F239F95F3CF7151549 /* DZDeneyRepeat.modulemap */,
+				AAD027E74F4F1B5D390CB29E83BE3D58 /* DZDeneyRepeat.xcconfig */,
+				FCD7A433CBFC73D20E14EA63418B503D /* DZDeneyRepeat-dummy.m */,
+				58A9BE05D0856FE3AE2E39454F1CDDD8 /* DZDeneyRepeat-prefix.pch */,
+				8B3FB06ABAC405D79C165D6C444E1E86 /* DZDeneyRepeat-umbrella.h */,
+				48E96566AEB133E1FB39AA3BCE90E996 /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/DZDeneyRepeat";
+			sourceTree = "<group>";
+		};
+		F332BCDEBD794F4C5BC83E462CBCC0ED /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				9D42BE629FBC35CDD14E8EF92E7B9A9A /* Info.plist */,
+				1C5A9597D57349864BEC2CC5AFB88400 /* MRLogicInjection.modulemap */,
+				C550342C705AE7A429A35ADA7EE4451A /* MRLogicInjection.xcconfig */,
+				EFA43F798B6BE0C4FB483014B51A09CF /* MRLogicInjection-dummy.m */,
+				178BF97784AAB06388222ECF780C276A /* MRLogicInjection-prefix.pch */,
+				10324431BDD97DF31821BC6FD622E3F5 /* MRLogicInjection-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/MRLogicInjection";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		0AA9BDD2EE167077970D198258CF5519 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B6A67A3B998747E4290BF6010EC33806 /* FBSnapshotTestCase-umbrella.h in Headers */,
+				8ACF6A5515A175054E22414BF740EF14 /* FBSnapshotTestCase.h in Headers */,
+				9FA3B93CE0ECAC3CDC30890659AACF82 /* FBSnapshotTestCasePlatform.h in Headers */,
+				130F048002A62769FAFCC66F2C79391A /* FBSnapshotTestController.h in Headers */,
+				68B245DB47CA60F8F9ADCA1E8CCDC324 /* UIApplication+StrictKeyWindow.h in Headers */,
+				EAA652557B70F493923A3447B5D64E0D /* UIImage+Compare.h in Headers */,
+				61EBC5CF0D5E065C88028B49C6B8D3B3 /* UIImage+Diff.h in Headers */,
+				34A1C7E576C58A9D3F3101448308BF3E /* UIImage+Snapshot.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		96573186A25CBEDF5A32A6A490FACF3A /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				81A43478E4CA39F82C8CBAB9F6070D8F /* DZDeneyRepeat-umbrella.h in Headers */,
+				27495E7A58C742661F86BCF059D2A9D1 /* DZDeneyRepeat.h in Headers */,
+				90972CCFDF0642B1EB6054634EA57AC2 /* DZDeneyRepeatInjection.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C6C8BF5311C4893C548ECE001156016E /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ABEEF55B60570397E142AD372FD75963 /* Pods-DZDeneyRepeat_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C853639CFFD8AF8AC9C3F2073C48D13B /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2ADEF0F2549103F0491117CB94C5C73E /* MRExtendClass.h in Headers */,
+				5A3AC6D1C97C72BEAE4491E17288980A /* MRLogicInjection-umbrella.h in Headers */,
+				5B9035157627EBCE6700215DA98C91FC /* MRLogicInjection.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CEECC5FE3EB7E78C3F84A2D7F855BCFC /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3A0200999A4AB91F106DFF35BAAFB968 /* Pods-DZDeneyRepeat_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		59B7B0E89F1F2A2DBBFFDDB05CAD2A39 /* MRLogicInjection */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6B55D4DAFA95D335BEAAB835B8E8ABC7 /* Build configuration list for PBXNativeTarget "MRLogicInjection" */;
+			buildPhases = (
+				85CB6C3DEC3CD41D006A1248AC400AED /* Sources */,
+				C1977F162D39201F542CC9BCB2063BC2 /* Frameworks */,
+				C853639CFFD8AF8AC9C3F2073C48D13B /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MRLogicInjection;
+			productName = MRLogicInjection;
+			productReference = 781AC1A2CF105D245DF28AEDB76E019D /* MRLogicInjection.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		5DB46EA499F9A5E22765121102FCC34B /* FBSnapshotTestCase */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8D492E06A9E9F494492A2A3B4D19493E /* Build configuration list for PBXNativeTarget "FBSnapshotTestCase" */;
+			buildPhases = (
+				7DE474775CBF413C7A124107E34E5614 /* Sources */,
+				F1A13ADE6C7840452C8DD4B939BFD24B /* Frameworks */,
+				0AA9BDD2EE167077970D198258CF5519 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FBSnapshotTestCase;
+			productName = FBSnapshotTestCase;
+			productReference = C065A8B558FD2E40426B754FF01DC76F /* FBSnapshotTestCase.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		707F309C14DF3985B552B94E2762CF64 /* DZDeneyRepeat */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A45930F731CDEFD4B6AE4F99EA586FE2 /* Build configuration list for PBXNativeTarget "DZDeneyRepeat" */;
+			buildPhases = (
+				D9118857FEF2FFE30B61C1DE48D64A92 /* Sources */,
+				10A0EB906189DE44626D008D90C497BB /* Frameworks */,
+				96573186A25CBEDF5A32A6A490FACF3A /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D252E127FA3218B70F3358BABB446EBC /* PBXTargetDependency */,
+			);
+			name = DZDeneyRepeat;
+			productName = DZDeneyRepeat;
+			productReference = D371AAB44AC83F703463789AA010A277 /* DZDeneyRepeat.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		8244CAA319E1C439F2CCC6BC1136DDC0 /* Pods-DZDeneyRepeat_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B1987622DAEC4D4FF6AABAD259D7E09F /* Build configuration list for PBXNativeTarget "Pods-DZDeneyRepeat_Example" */;
+			buildPhases = (
+				B9685995015AB801DCE1B0E0EDACE5D4 /* Sources */,
+				4894D24346AD91AB3D36E2DDFDC65809 /* Frameworks */,
+				CEECC5FE3EB7E78C3F84A2D7F855BCFC /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D05444D0B424324BBC06161E36037CD3 /* PBXTargetDependency */,
+				F64E0B654EA1B5FB4613482B70CE2971 /* PBXTargetDependency */,
+			);
+			name = "Pods-DZDeneyRepeat_Example";
+			productName = "Pods-DZDeneyRepeat_Example";
+			productReference = CADE2DB48316F237C325F423D1508B94 /* Pods_DZDeneyRepeat_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		EBD1649C013B23098F1BF8F237B9A3BB /* Pods-DZDeneyRepeat_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 39557464CBB7CAC108C09D633D4680B9 /* Build configuration list for PBXNativeTarget "Pods-DZDeneyRepeat_Tests" */;
+			buildPhases = (
+				013B9F8D0D269AA7FBDCF92026C28EE8 /* Sources */,
+				2BFD2AB57D5AEC22B58B8A7CF05896F3 /* Frameworks */,
+				C6C8BF5311C4893C548ECE001156016E /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2BA0B61AA547BD185A6247C151000D5B /* PBXTargetDependency */,
+			);
+			name = "Pods-DZDeneyRepeat_Tests";
+			productName = "Pods-DZDeneyRepeat_Tests";
+			productReference = A8939EB919888C6E44F981D67B3E8294 /* Pods_DZDeneyRepeat_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 9494560ECBDA3182CDAD699853BED3B3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				707F309C14DF3985B552B94E2762CF64 /* DZDeneyRepeat */,
+				5DB46EA499F9A5E22765121102FCC34B /* FBSnapshotTestCase */,
+				59B7B0E89F1F2A2DBBFFDDB05CAD2A39 /* MRLogicInjection */,
+				8244CAA319E1C439F2CCC6BC1136DDC0 /* Pods-DZDeneyRepeat_Example */,
+				EBD1649C013B23098F1BF8F237B9A3BB /* Pods-DZDeneyRepeat_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		013B9F8D0D269AA7FBDCF92026C28EE8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BA3CEE99217369440CA29D1C84BBC9B0 /* Pods-DZDeneyRepeat_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7DE474775CBF413C7A124107E34E5614 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				497AA8816FC08215EF4C2431E1986992 /* FBSnapshotTestCase-dummy.m in Sources */,
+				6914EE43A9B8B8D30220B3B6B0D57523 /* FBSnapshotTestCase.m in Sources */,
+				6E4A16BF4D27C48BB1FE1E1CF5E8B90E /* FBSnapshotTestCasePlatform.m in Sources */,
+				F47158C234C50FFB069A1EF8AB26D9F1 /* FBSnapshotTestController.m in Sources */,
+				85D178DFCA1BC67BBFB1188E34EC5B19 /* SwiftSupport.swift in Sources */,
+				2C87E1788C8FA06AE3481A2226E3AF2D /* UIApplication+StrictKeyWindow.m in Sources */,
+				11C22C7B844DF31A5EBDC9AC132C5E94 /* UIImage+Compare.m in Sources */,
+				C360952381641F725C15758993A0F665 /* UIImage+Diff.m in Sources */,
+				D5C30BC656C11AF60394E3180A217BB1 /* UIImage+Snapshot.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		85CB6C3DEC3CD41D006A1248AC400AED /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				501DC8A63FF9383105F46CFFA7806391 /* MRExtendClass.m in Sources */,
+				4FFEAF6029B943D6D449AAFD3E50C866 /* MRLogicInjection-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B9685995015AB801DCE1B0E0EDACE5D4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				27F315F10DA9799C8D285FA0CAD7C70E /* Pods-DZDeneyRepeat_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D9118857FEF2FFE30B61C1DE48D64A92 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				211FD57F06DB5C1551F29B08D86434F2 /* DZDeneyRepeat-dummy.m in Sources */,
+				F201DBA57FF777AAF9018A14EAA05F11 /* DZDeneyRepeatInjection.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2BA0B61AA547BD185A6247C151000D5B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = FBSnapshotTestCase;
+			target = 5DB46EA499F9A5E22765121102FCC34B /* FBSnapshotTestCase */;
+			targetProxy = 9FBFED67A1461BAD5DF258543C8D8457 /* PBXContainerItemProxy */;
+		};
+		D05444D0B424324BBC06161E36037CD3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = DZDeneyRepeat;
+			target = 707F309C14DF3985B552B94E2762CF64 /* DZDeneyRepeat */;
+			targetProxy = 18EE1445CDD73D28659DAAA73F5C9015 /* PBXContainerItemProxy */;
+		};
+		D252E127FA3218B70F3358BABB446EBC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = MRLogicInjection;
+			target = 59B7B0E89F1F2A2DBBFFDDB05CAD2A39 /* MRLogicInjection */;
+			targetProxy = 1E031D4E519097E1E47D51C368601039 /* PBXContainerItemProxy */;
+		};
+		F64E0B654EA1B5FB4613482B70CE2971 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = MRLogicInjection;
+			target = 59B7B0E89F1F2A2DBBFFDDB05CAD2A39 /* MRLogicInjection */;
+			targetProxy = 21CA887E1E3F67D437DE16D12FD10051 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0ACDCBCB0B6796575F46FFA2F5410C6B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1EAB35ACB452D210D5CF60F7847CD85B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0E7C8DC17D4D3DE7C33C861B64E7276C /* FBSnapshotTestCase.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/FBSnapshotTestCase/FBSnapshotTestCase-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/FBSnapshotTestCase/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/FBSnapshotTestCase/FBSnapshotTestCase.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = FBSnapshotTestCase;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		286B46BF4B7F60DF146E8BC119FE1D36 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AEAD80E71903DAAD8DAA64CC71DD9615 /* Pods-DZDeneyRepeat_Tests.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-DZDeneyRepeat_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-DZDeneyRepeat_Tests/Pods-DZDeneyRepeat_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_DZDeneyRepeat_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		307054501EB085155C66723B08870A9F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AAD027E74F4F1B5D390CB29E83BE3D58 /* DZDeneyRepeat.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/DZDeneyRepeat/DZDeneyRepeat-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/DZDeneyRepeat/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/DZDeneyRepeat/DZDeneyRepeat.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = DZDeneyRepeat;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		72D4DFB21FFAEEAC85FBB69050E46186 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AAD027E74F4F1B5D390CB29E83BE3D58 /* DZDeneyRepeat.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/DZDeneyRepeat/DZDeneyRepeat-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/DZDeneyRepeat/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/DZDeneyRepeat/DZDeneyRepeat.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = DZDeneyRepeat;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		759FCA01FB7060F7029B5F82886E2D0A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 62AC4981B3FCB168DA0EA48021FE6A3E /* Pods-DZDeneyRepeat_Example.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-DZDeneyRepeat_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-DZDeneyRepeat_Example/Pods-DZDeneyRepeat_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_DZDeneyRepeat_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		94A59DF3366F498079DC4776F0A0D530 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C550342C705AE7A429A35ADA7EE4451A /* MRLogicInjection.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/MRLogicInjection/MRLogicInjection-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/MRLogicInjection/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/MRLogicInjection/MRLogicInjection.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = MRLogicInjection;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		B79216A16A9BEFAB556CAAED6D6BD267 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6B0413939F063C96847DF4CD2F2EFFEC /* Pods-DZDeneyRepeat_Tests.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-DZDeneyRepeat_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-DZDeneyRepeat_Tests/Pods-DZDeneyRepeat_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_DZDeneyRepeat_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		D3E3D092A3FF7311A98E44BBA36FFD12 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				ONLY_ACTIVE_ARCH = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		F1966C59AF0C3A63F4C5A9E7987B3CB0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0E7C8DC17D4D3DE7C33C861B64E7276C /* FBSnapshotTestCase.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/FBSnapshotTestCase/FBSnapshotTestCase-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/FBSnapshotTestCase/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/FBSnapshotTestCase/FBSnapshotTestCase.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = FBSnapshotTestCase;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		F370DC2A91F545894D5C68FFBD1438EE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C550342C705AE7A429A35ADA7EE4451A /* MRLogicInjection.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/MRLogicInjection/MRLogicInjection-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/MRLogicInjection/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/MRLogicInjection/MRLogicInjection.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = MRLogicInjection;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		F623B830890784CEDB6038EFF231FF7A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FC1755F01445D5EFF50EC8B86348F94C /* Pods-DZDeneyRepeat_Example.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-DZDeneyRepeat_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-DZDeneyRepeat_Example/Pods-DZDeneyRepeat_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_DZDeneyRepeat_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D3E3D092A3FF7311A98E44BBA36FFD12 /* Debug */,
+				0ACDCBCB0B6796575F46FFA2F5410C6B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		39557464CBB7CAC108C09D633D4680B9 /* Build configuration list for PBXNativeTarget "Pods-DZDeneyRepeat_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				286B46BF4B7F60DF146E8BC119FE1D36 /* Debug */,
+				B79216A16A9BEFAB556CAAED6D6BD267 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6B55D4DAFA95D335BEAAB835B8E8ABC7 /* Build configuration list for PBXNativeTarget "MRLogicInjection" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				94A59DF3366F498079DC4776F0A0D530 /* Debug */,
+				F370DC2A91F545894D5C68FFBD1438EE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8D492E06A9E9F494492A2A3B4D19493E /* Build configuration list for PBXNativeTarget "FBSnapshotTestCase" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1EAB35ACB452D210D5CF60F7847CD85B /* Debug */,
+				F1966C59AF0C3A63F4C5A9E7987B3CB0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A45930F731CDEFD4B6AE4F99EA586FE2 /* Build configuration list for PBXNativeTarget "DZDeneyRepeat" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				72D4DFB21FFAEEAC85FBB69050E46186 /* Debug */,
+				307054501EB085155C66723B08870A9F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B1987622DAEC4D4FF6AABAD259D7E09F /* Build configuration list for PBXNativeTarget "Pods-DZDeneyRepeat_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F623B830890784CEDB6038EFF231FF7A /* Debug */,
+				759FCA01FB7060F7029B5F82886E2D0A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
